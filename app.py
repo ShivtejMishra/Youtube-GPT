@@ -14,7 +14,7 @@ os.environ['GOOGLE_API_KEY'] = apikey
 # App framework
 st.title('🦜🔗 👉 Youtube GPT')
 st.subheader('Generate youtube video title and video script in just 20 sec. 😎 ')
-prompt = st.text_input('Plug in your prompt here') 
+prompt = st.text_input('Enter Your Prompt') 
 
 # Prompt templates
 title_template = PromptTemplate(
