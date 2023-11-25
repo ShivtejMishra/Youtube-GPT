@@ -5,12 +5,13 @@ from apikey import apikey
 import streamlit as st 
 from langchain.llms import GooglePalm
 from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain, SequentialChain 
+from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper 
 
 os.environ['GOOGLE_API_KEY'] = apikey
 
+st.sidebar.subheader("This develop by Shivtej Mishra")
 # App framework
 st.title('🦜🔗 👉 Youtube GPT')
 st.subheader('Generate youtube video title and video script in just 20 sec. 😎 ')
