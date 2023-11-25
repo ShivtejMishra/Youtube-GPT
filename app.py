@@ -1,9 +1,3 @@
-!pip install langchain
-!pip install google-generativeai
-!pip install chromadb
-!pip install wikipedia
-
-
 
 # Bring in deps
 import os 
