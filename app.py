@@ -1,7 +1,7 @@
-pip install langchain
-pip install google-generativeai
-pip install chromadb
-pip install wikipedia
+!pip install langchain
+!pip install google-generativeai
+!pip install chromadb
+!pip install wikipedia
 
 
 
